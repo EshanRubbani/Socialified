@@ -33,7 +33,8 @@ class DeviceInfoManager {
 
     info.ip = data['ip'];
     info.model = modelName;
+    info.deviceType = '1';
     info.osVersion = osVersion;
-    info.deviceType = Platform.isAndroid ? '1' : '2';
+//    info.deviceType = Platform.isAndroid ? '1' : '2';
   }
 }

@@ -149,9 +149,9 @@ Future<void> main() async {
   }
 
   final SettingsController settingsController = Get.find();
-  // await settingsController.getSettings();
+   await settingsController.getSettings();
 
-  // NotificationManager().initialize();
+   NotificationManager().initialize();
   FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
 
   await getIt<DBManager>().createDatabase();

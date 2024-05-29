@@ -7,19 +7,19 @@ final SettingsController settingsController = Get.find();
 
 class AppConfigConstants {
   // Name of app
-  static String appName = 'your_app_name';
+  static String appName = 'foap';
 
   static String currentVersion = '2.3';
   static const liveAppLink = 'https://www.google.com/';
 
   static String appTagline = 'Share your day activity with friends';
-  static const googleMapApiKey = 'your_google_map_api_key';
+  static const googleMapApiKey = 'AIzaSyDxG0RL36UO7jWJ2vXQGHUk8O4qakRafzE';
 
   static const restApiBaseUrl =
-      'https://your_domain/api/web/v1/';
+      'https://dreambigbusinessnetwork.com/api/web/v1/';
 
   // Socket api url
-  static const socketApiBaseUrl = "https://dreambigbusinessnetwork.com:4001/";
+  static const socketApiBaseUrl = "https://dreambigbusinessnetwork.com:4000/";
 
   // static const restApiBaseUrl =
   //     'https://development.fwdtechnology.co/social_media/api/web/v1/';
