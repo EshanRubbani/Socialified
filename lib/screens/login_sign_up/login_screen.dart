@@ -1,5 +1,7 @@
 import 'package:foap/helper/imports/common_import.dart';
 import 'package:foap/helper/imports/login_signup_imports.dart';
+import 'package:foap/manager/socket_manager.dart';
+import 'package:foap/screens/dashboard/dashboard_screen.dart';
 
 import '../../main.dart';
 
@@ -119,7 +121,8 @@ class LoginScreenState extends State<LoginScreen> {
   Widget addLoginBtn() {
     return AppThemeButton(
       onPress: () {
-        controller.login(email.text.trim(), password.text.trim());
+       Get.offAll(() => const DashboardScreen());
+              getIt<SocketManager>().connect(); // controller.login(email.text.trim(), password.text.trim());
       },
       text: signInString.tr,
     );

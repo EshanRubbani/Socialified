@@ -7,7 +7,7 @@ final SettingsController settingsController = Get.find();
 
 class AppConfigConstants {
   // Name of app
-  static String appName = 'foap';
+  static String appName = 'Dream Big By Derek Owens';
 
   static String currentVersion = '2.3';
   static const liveAppLink = 'https://www.google.com/';
@@ -16,10 +16,10 @@ class AppConfigConstants {
   static const googleMapApiKey = 'AIzaSyDxG0RL36UO7jWJ2vXQGHUk8O4qakRafzE';
 
   static const restApiBaseUrl =
-      'https://dreambigbusinessnetwork.com/api/web/v1/';
+      'https://dreambigbusinessnetwork.com/api/web/';
 
   // Socket api url
-  static const socketApiBaseUrl = "https://dreambigbusinessnetwork.com:4000/";
+  static const socketApiBaseUrl = "https://dreambigbusinessnetwork.com/chat/";
 
   // static const restApiBaseUrl =
   //     'https://development.fwdtechnology.co/social_media/api/web/v1/';

@@ -5,7 +5,7 @@
     <application
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
-        android:label="Socialified"
+        android:label="Big Dream BY Derek Owens"
         android:requestLegacyExternalStorage="true"
         tools:replace="android:label"
         >
