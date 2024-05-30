@@ -18,12 +18,12 @@ class AppConfigConstants {
   static const restApiBaseUrl =
       'https://dreambigbusinessnetwork.com/api/web/';
 
-  // Socket api url
+ // Socket api url
   static const socketApiBaseUrl = "https://dreambigbusinessnetwork.com/chat/";
 
   // static const restApiBaseUrl =
   //     'https://development.fwdtechnology.co/social_media/api/web/v1/';
-  //
+  
   // // Socket api url
   // static const socketApiBaseUrl = "https://development.fwdtechnology.co:3000/";
 
